@@ -1,0 +1,625 @@
+
+html{
+    display: block;
+}
+
+body{
+    
+    font-family: 'Post Pixel-7';
+    font-style: normal;
+    font-size: 22px;
+    background-color:#E5E5E5;
+    color: black;
+   
+}
+
+/*header style start*/
+
+
+.wrapper{
+    max-width: 1260px;
+    margin: 0 auto;
+
+}
+
+.header{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Modern Dot Digital-7';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    
+    color: #828282;
+     
+    
+}
+
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end
+}
+.header_wrapper:first-child{
+    justify-content: none;
+    padding-left:100px;
+}
+
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+    margin-right: 92px;
+    margin-top: 50px;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+
+
+.header_link{
+font-weight: 400;
+font-size: 22px;
+line-height: 18px;
+
+color: #828282;
+text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .50;
+}
+
+/*Header style end*/
+
+
+/*Main style start*/
+
+.main_block{
+    justify-content: center;
+    width: 1460px;
+    height: 100%;
+    background: #ffffff;    
+}
+
+.intro{
+    padding-top: 140px;
+   
+}
+.intro_block{
+    max-width: 1060px;
+    height: 506px;
+    margin-top: 120px ;
+    background: #ffffff;
+}
+
+.intro_first{
+    padding-left: 40px;
+}
+
+.t-rex, .mrx, .hack{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.t-rex_img{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about_wrapper{
+
+    max-width: 100%;
+    height: 506px;
+    margin-top: 120px ;
+    background: #F6F6F6;
+}
+
+
+.about_block{
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    
+}
+
+
+.about_img{
+    width: 314px;
+    height: 314px;
+    border-radius: 70px 20px 70px 20px;
+    
+}
+
+.about_tittle{
+    font-size: 38px;
+}
+.about_text{ 
+    width: 401px;
+    height: 256px;
+    padding-top: 70px;
+    padding-right: 200px;
+}
+
+
+
+
+.mrx1{
+    text-align: center;
+}
+
+
+
+
+
+.skills_wrapper{
+    max-width: 100%;
+    height: 1550px;
+    margin-top: 120px ;
+    background: #F6F6F6;
+
+}
+
+.skills_tittle{
+    font-size: 38px;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+.game_skills{
+    padding-left: 190px;
+    padding-top: 30px;
+}
+
+.skills_game{
+    width: 445px;
+    margin-right: 150px;
+    
+}
+
+.line_game{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+
+
+
+.skill{
+    font-size: 24px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.game1{
+    position: relative;
+    
+
+}
+.game1::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.game1::after{
+content:"";
+width: 150px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+.game2{
+    position: relative;
+
+}
+.game2::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.game2::after{
+content:"";
+width: 180px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+    
+.game3{
+    position: relative;
+
+}
+.game3::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.game3::after{
+content:"";
+width: 320px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+
+.game4{
+    position: relative;
+
+}
+.game4::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.game4::after{
+content:"";
+width: 240px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.mooed_block{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.prog_skills{
+    padding-left: 190px;
+
+}
+
+.skills_prog{
+    width: 445px;
+    margin-right: 150px;
+    
+}
+
+.line_prog{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+.prog1{
+    position: relative;
+    
+
+}
+.prog1::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.prog1::after{
+content:"";
+width: 60px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+.prog2{
+    position: relative;
+
+}
+.prog2::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.prog2::after{
+content:"";
+width: 90px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+    
+.prog3{
+    position: relative;
+
+}
+.prog3::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.prog3::after{
+content:"";
+width: 60px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+
+
+
+
+
+
+
+.web_skills{
+    padding-left: 190px;
+    padding-top: 30px;
+}
+
+.skills_web{
+    width: 445px;
+    margin-right: 150px;
+    
+}
+
+.line_web{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+.web1{
+    position: relative;
+    
+
+}
+.web1::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.web1::after{
+content:"";
+width: 400px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+.web2{
+    position: relative;
+
+}
+.web2::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.web2::after{
+content:"";
+width: 1px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+    
+.web3{
+    position: relative;
+
+}
+.web3::before{
+    content:"";
+    width: 445px;
+    height: 10px;
+    background: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.web3::after{
+content:"";
+width: 200px;
+height: 10px;
+background: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+    
+}
+
+
+
+
+.hack{
+    padding-top: 100px;
+}
+
+
+
+
+
+.port_wrapper{
+    max-width: 100%;
+    height: 2100px;
+    margin-top: 120px ;
+    background: #F6F6F6;
+
+}
+
+.port_tittle{
+    font-size: 38px;
+    padding-top: 70px;
+    padding-left: 200px;
+    margin-bottom: 70px;
+}
+
+.port_img{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   
+   
+}
+
+.d{
+    margin-top: 65px;
+}
+.ms_game{
+
+   width: 350px;
+    border-radius: 30px;
+}
+
+.joker{
+    width: 300px;
+    margin-left: 70px;
+}
+
+.xeon{
+    width: 350px;
+    border-radius: 30px;
+   
+   
+}
+.blender{
+    width: 285px;
+    border-radius: 40px;
+    margin-left: 100px;
+}
+
+.room, .house, .planet, .cube{
+    border-radius: 30px;
+    width: 500px;
+    margin: 5px;
+}
+.dollar{
+    margin-top: 30px;
+}
+
+
+/*Main style end*/
+
+/*Footer style start*/
+
+.footer_wrapper{
+    max-width: 100%;
+    height: 500px;
+    margin-top: 10px ;
+    background: #ffffff;
+
+}
+
+.footer_tittle{
+    font-size: 38px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.footer_text{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+}
+.footer_item{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/*Footer style end*/
